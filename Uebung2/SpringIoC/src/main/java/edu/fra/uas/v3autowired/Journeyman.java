@@ -7,11 +7,11 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Journeyman {
-//    @Autowired
-///   @Qualifier("pleasePaint")
+    @Autowired
+    @Qualifier("pleaseDig")
     Work work;
 
     public void performWork() {
         work.doWork();
-   }
+    }
 }
