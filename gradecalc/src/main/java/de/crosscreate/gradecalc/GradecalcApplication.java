@@ -52,7 +52,7 @@ public class GradecalcApplication implements CommandLineRunner {
 
 		System.out.println("\nDie berechnete GPA ist: " + gradesOverviewController.getGPA() + "\n\n");
 
-		System.exit(0);
+		//System.exit(0);
 	}
 
 	@PostConstruct

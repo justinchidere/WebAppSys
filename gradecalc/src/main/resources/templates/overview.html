@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Grade Overview</title>
+  </head>
+  <body>
+    <h1>Grade Overview</h1>
+    <h2>
+      for
+      <span th:text="${studentName} + ' (⌀: ' + ${averageGrade} + ')'"></span>
+    </h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Student ID</th>
+          <th>Course</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr th:each="module : ${modules}">
+          <td th:text="${module.name}">c</td>
+          <td th:text="${module.credits}">c</td>
+          <td th:text="${module.grade}">c</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <a href="/add">Add new grade</a>
+    <footer>
+      <small id="today"></small>
+    </footer>
+    <script>
+      var date = new Date();
+      var year = date.getFullYear();
+      document.getElementById("today").innerHTML =
+        "&copy; FRA-UAS Grade Calculator, " + year;
+    </script>
+  </body>
+</html>

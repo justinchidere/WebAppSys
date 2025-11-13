@@ -3,9 +3,11 @@ package de.crosscreate.gradecalc.grades.service;
 import java.util.ArrayList;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Service;
+
 import de.crosscreate.gradecalc.modules.model.Module;
 
-@Controller
+@Service
 public class GradesOverviewService {
     private ArrayList<Module> modules;
 

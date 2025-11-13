@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Grade</title>
+</head>
+<body>
+    <h1>Add Grade</h1>
+    <h2>for <span th:text="${studentName}"></span></h2>
+    <form th:action="@{/add}" th:method="post">
+        <label for="name">Module Name:</label>
+        <input type="text" id="name" name="name" required autofocus><br>
+
+        <label for="grade">Grade:</label>
+        <input type="number" id="grade" name="grade" step="1" value="3" required><br>
+
+        <label for="credits">Credits:</label>
+        <input type="number" id="credits" name="credits" step="1" value="5" required><br>
+
+        <input type="submit" value="Add Grade">
+    </form>
+</body>
+</html>
+
+<body>
+    
+</body>
+</html>
