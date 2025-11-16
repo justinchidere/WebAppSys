@@ -31,7 +31,8 @@ public class GradesOverviewController {
 
     // Show the add form via GET
     @GetMapping("/add")
-    public String addModulePage() {
+    public String addModulePage(Model model) {
+        model.addAttribute("studentName", "John Doe");
         return "add.html";
     }
 

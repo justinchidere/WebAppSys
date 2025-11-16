@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.slf4j.Logger;
+import org.springframework.beans.TypeMismatchException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -46,7 +47,7 @@ public class UserController {
 
     // http://127.0.0.1/find?id=1
     @RequestMapping(value = {"/find"}, method = RequestMethod.GET)
-    public String find(@RequestParam("id") Long userId, Model model) {
+    public String find(@RequestParam("id") Long userId, Model model) throws TypeMismatchException{
         log.debug("find() is called");
         User user = userService.getUserById(userId);
         model.addAttribute("user", user);

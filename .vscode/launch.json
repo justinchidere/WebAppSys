@@ -1,189 +1,199 @@
 {
-    // Verwendet IntelliSense zum Ermitteln möglicher Attribute.
-    // Zeigen Sie auf vorhandene Attribute, um die zugehörigen Beschreibungen anzuzeigen.
-    // Weitere Informationen finden Sie unter https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "GradecalcApplication",
-            "request": "launch",
-            "mainClass": "de.crosscreate.gradecalc.GradecalcApplication",
-            "projectName": ""
-        },
-        {
-            "type": "java",
-            "name": "UserApplication",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.UserApplication",
-            "projectName": "UserService"
-        },
-        {
-            "type": "java",
-            "name": "ChatApplication",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.ChatApplication",
-            "projectName": "ChatService"
-        },
-        {
-            "type": "java",
-            "name": "GraphQlClientApplication",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.GraphQlClientApplication",
-            "projectName": "GraphQL-Client"
-        },
-        {
-            "type": "java",
-            "name": "GRpcClientStreamingApplication",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.GRpcClientStreamingApplication",
-            "projectName": "gRPC-Client-Streaming"
-        },
-        {
-            "type": "java",
-            "name": "GRpcStreamingApplication",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.GRpcStreamingApplication",
-            "projectName": "gRPC-Streaming"
-        },
-        {
-            "type": "java",
-            "name": "GRpcClientApplication",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.GRpcClientApplication",
-            "projectName": "gRPC-Client"
-        },
-        {
-            "type": "java",
-            "name": "GrpcApplication",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.GrpcApplication",
-            "projectName": "gRPC"
-        },
-        {
-            "type": "java",
-            "name": "GraphQlClientSubscriptionApplication",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.GraphQlClientSubscriptionApplication",
-            "projectName": "GraphQL-Client-Subscription"
-        },
-        {
-            "type": "java",
-            "name": "GraphQlSubscriptionApplication",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.GraphQlSubscriptionApplication",
-            "projectName": "GraphQL-Subscription"
-        },
-        {
-            "type": "java",
-            "name": "GraphQlClientApplication",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.GraphQlClientApplication",
-            "projectName": "graphqlClient"
-        },
-        {
-            "type": "java",
-            "name": "GraphqlClientApplication",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.GraphqlClientApplication",
-            "projectName": "GraphQL-Client"
-        },
-        {
-            "type": "java",
-            "name": "GraphQlApplication",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.GraphQlApplication",
-            "projectName": "GraphQL"
-        },
-        {
-            "type": "java",
-            "name": "ApiApplication",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.ApiApplication",
-            "projectName": "RESTfulAPI"
-        },
-        {
-            "type": "java",
-            "name": "MvcApplication",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.MvcApplication",
-            "projectName": "MVC"
-        },
-        {
-            "type": "java",
-            "name": "SpringScopesApplication",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.SpringScopesApplication",
-            "projectName": "SpringScopes"
-        },
-        {
-            "type": "java",
-            "name": "SpringDependencyInjectionApplication",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.SpringDependencyInjectionApplication",
-            "projectName": "SpringDependencyInjection"
-        },
-        {
-            "type": "java",
-            "name": "SpringCompleteBeanLifeCycleApplication",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.SpringCompleteBeanLifeCycleApplication",
-            "projectName": "SpringCompleteBeanLifeCycle"
-        },
-        {
-            "type": "java",
-            "name": "SpringBeanLifeCycleApplication",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.SpringBeanLifeCycleApplication",
-            "projectName": "SpringBeanLifeCycle"
-        },
-        {
-            "type": "java",
-            "name": "ApplicationInitializer",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.ApplicationInitializer",
-            "projectName": "SpringApplicationContext"
-        },
-        {
-            "type": "java",
-            "name": "SpringIoCApplication",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.SpringIoCApplication",
-            "projectName": "SpringIoC"
-        },
-        {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "BeanExampleApplication(1)",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.BeanExampleApplication",
-            "projectName": "BeanExample"
-        },
-        {
-            "type": "java",
-            "name": "BeanExampleApplication(2)",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.BeanExampleApplication",
-            "projectName": "BeanExampleExtended"
-        },
-        {
-            "type": "java",
-            "name": "BeanExampleApplication(3)",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.BeanExampleApplication",
-            "projectName": "BeanExampleExtendedLogging"
-        },
-        {
-            "type": "java",
-            "name": "BeanExampleApplication(4)",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.BeanExampleApplication",
-            "projectName": "BeanExampleExtendedTesting"
-        }
-    ]
+  // Verwendet IntelliSense zum Ermitteln möglicher Attribute.
+  // Zeigen Sie auf vorhandene Attribute, um die zugehörigen Beschreibungen anzuzeigen.
+  // Weitere Informationen finden Sie unter https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "GradecalcApplication",
+      "request": "launch",
+      "mainClass": "de.crosscreate.gradecalc.GradecalcApplication",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "UserApplication",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.UserApplication",
+      "projectName": "UserService"
+    },
+    {
+      "type": "java",
+      "name": "ChatApplication",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.ChatApplication",
+      "projectName": "ChatService"
+    },
+    {
+      "type": "java",
+      "name": "GraphQlClientApplication",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.GraphQlClientApplication",
+      "projectName": "GraphQL-Client"
+    },
+    {
+      "type": "java",
+      "name": "GRpcClientStreamingApplication",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.GRpcClientStreamingApplication",
+      "projectName": "gRPC-Client-Streaming"
+    },
+    {
+      "type": "java",
+      "name": "GRpcStreamingApplication",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.GRpcStreamingApplication",
+      "projectName": "gRPC-Streaming"
+    },
+    {
+      "type": "java",
+      "name": "GRpcClientApplication",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.GRpcClientApplication",
+      "projectName": "gRPC-Client"
+    },
+    {
+      "type": "java",
+      "name": "GrpcApplication",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.GrpcApplication",
+      "projectName": "gRPC"
+    },
+    {
+      "type": "java",
+      "name": "GraphQlClientSubscriptionApplication",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.GraphQlClientSubscriptionApplication",
+      "projectName": "GraphQL-Client-Subscription"
+    },
+    {
+      "type": "java",
+      "name": "GraphQlSubscriptionApplication",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.GraphQlSubscriptionApplication",
+      "projectName": "GraphQL-Subscription"
+    },
+    {
+      "type": "java",
+      "name": "GraphQlClientApplication",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.GraphQlClientApplication",
+      "projectName": "graphqlClient"
+    },
+    {
+      "type": "java",
+      "name": "GraphqlClientApplication",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.GraphqlClientApplication",
+      "projectName": "GraphQL-Client"
+    },
+    {
+      "type": "java",
+      "name": "GraphQlApplication",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.GraphQlApplication",
+      "projectName": "GraphQL"
+    },
+    {
+      "type": "java",
+      "name": "ApiApplication",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.ApiApplication",
+      "projectName": "RESTfulAPI"
+    },
+    {
+      "type": "java",
+      "name": "MvcApplication",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.MvcApplication",
+      "projectName": "MVC"
+    },
+    {
+      "type": "java",
+      "name": "SpringScopesApplication",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.SpringScopesApplication",
+      "projectName": "SpringScopes"
+    },
+    {
+      "type": "java",
+      "name": "SpringDependencyInjectionApplication",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.SpringDependencyInjectionApplication",
+      "projectName": "SpringDependencyInjection"
+    },
+    {
+      "type": "java",
+      "name": "SpringCompleteBeanLifeCycleApplication",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.SpringCompleteBeanLifeCycleApplication",
+      "projectName": "SpringCompleteBeanLifeCycle"
+    },
+    {
+      "type": "java",
+      "name": "SpringBeanLifeCycleApplication",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.SpringBeanLifeCycleApplication",
+      "projectName": "SpringBeanLifeCycle"
+    },
+    {
+      "type": "java",
+      "name": "ApplicationInitializer",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.ApplicationInitializer",
+      "projectName": "SpringApplicationContext"
+    },
+    {
+      "type": "java",
+      "name": "SpringIoCApplication",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.SpringIoCApplication",
+      "projectName": "SpringIoC"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "BeanExampleApplication(1)",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.BeanExampleApplication",
+      "projectName": "BeanExample"
+    },
+    {
+      "type": "java",
+      "name": "BeanExampleApplication(2)",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.BeanExampleApplication",
+      "projectName": "BeanExampleExtended"
+    },
+    {
+      "type": "java",
+      "name": "BeanExampleApplication(3)",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.BeanExampleApplication",
+      "projectName": "BeanExampleExtendedLogging"
+    },
+    {
+      "type": "java",
+      "name": "BeanExampleApplication(4)",
+      "request": "launch",
+      "mainClass": "edu.fra.uas.BeanExampleApplication",
+      "projectName": "BeanExampleExtendedTesting"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-GradecalcApplication<gradecalc>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "de.crosscreate.gradecalc.GradecalcApplication",
+      "projectName": "gradecalc",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
 }
